@@ -11,9 +11,10 @@ public class Empageprblm {
 	int empWage = 0;
 	  //Commputaion
 	double empcheck = Math.floor(Math.random() * 10) % 2;
-	if(empcheck == IS_FULL_TIME);
+	if(empcheck == IS_FULL_TIME)
 	empHrs = 4;
-	else if (empCheck == IS_PART_TIME)
+	else 
+	if (empcheck == IS_PART_TIME)
 	empHrs = 8;
 	else
          empHrs=0;
