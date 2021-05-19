@@ -1,5 +1,5 @@
 package com.Empwageprblm;
-public class Empageprblm {
+public class Empwageprblm {
 	public static void main(String[] args) {
 	  //conastant
 	int IS_FULL_TIME = 2;
@@ -11,13 +11,13 @@ public class Empageprblm {
 	int empWage = 0;
 	  //Commputaion
 	double empcheck = Math.floor(Math.random() * 10) % 2;
-	if(empcheck == IS_FULL_TIME);
+	if(empcheck == IS_FULL_TIME)
 	empHrs = 4;
-	else if (empCheck == IS_PART_TIME)
+	else if(empcheck == IS_PART_TIME)
 	empHrs = 8;
 	else
          empHrs=0;
-	empWage = empHrs * EMP_RATE_PER_HOUR;
+	//empWage = empHrs * EMP_RATE_PER_HOUR;
 	System.out.println("Emp Wage: " + empWage);
 	}
 }
